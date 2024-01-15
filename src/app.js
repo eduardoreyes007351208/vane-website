@@ -4,7 +4,7 @@ const mustacheExpress = require('mustache-express');
 const LOCATIONS = require('./lists/locations')
 
 const app = express();
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname + '/public/')));
 
 // configure mustache
 app.set('views', `${__dirname}/pages`);
