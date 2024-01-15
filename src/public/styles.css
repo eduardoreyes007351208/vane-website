@@ -1,7 +1,7 @@
 :root {
-    --bs-font-sans-serif: "Courier Prime", monospace;
-    --bs-primary: #555555;
-    --bs-secondary: #ffbf00;
+    --vv-font-sans-serif: "Courier Prime", monospace;
+    --vv-primary: #555555;
+    --vv-secondary: #ffbf00;
 }
 
 body {
@@ -24,19 +24,29 @@ a {
     text-decoration: none;
 }
 
-#header-div, #footer-div {
-    background-color: var(--bs-primary);
+#header-div {
+    background-color: var(--vv-primary);
 }
 
 #hero-btn {
-    background-color: var(--bs-secondary);
-    border: 1px solid var(--bs-secondary);
+    background-color: var(--vv-secondary);
+    border: 1px solid var(--vv-secondary);
 }
 
 #location-card {
-    background-color: var(--bs-primary);
+    background-color: var(--vv-primary);
 }
 
 #location-card-text {
-    color: var(--bs-secondary);
+    color: var(--vv-secondary);
+}
+
+.btn-primary {
+    --bs-btn-color: var(--vv-primary);
+    --bs-btn-bg: var(--vv-secondary);
+    --bs-btn-border-color: var(--vv-secondary);
+}
+
+.bg-vv-primary {
+    background-color: var(--vv-primary);
 }
