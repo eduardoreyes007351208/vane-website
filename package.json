@@ -1,0 +1,28 @@
+{
+  "name": "vane-website",
+  "version": "1.0.0",
+  "description": "Website for Vanessa Vega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoreyes007351208/vane-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardoreyes007351208/vane-website/issues"
+  },
+  "homepage": "https://github.com/eduardoreyes007351208/vane-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
