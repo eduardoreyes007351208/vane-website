@@ -17,7 +17,7 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    color: var(--bs-secondary);
+    color: var(--vv-secondary);
 }
 
 a {
@@ -47,6 +47,3 @@ a {
     --bs-btn-border-color: var(--vv-secondary);
 }
 
-.bg-vv-primary {
-    background-color: var(--vv-primary);
-}
