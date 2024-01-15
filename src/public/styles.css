@@ -24,11 +24,19 @@ a {
     text-decoration: none;
 }
 
-#header-div {
+#header-div, #footer-div {
     background-color: var(--bs-primary);
 }
 
 #hero-btn {
     background-color: var(--bs-secondary);
     border: 1px solid var(--bs-secondary);
+}
+
+#location-card {
+    background-color: var(--bs-primary);
+}
+
+#location-card-text {
+    color: var(--bs-secondary);
 }

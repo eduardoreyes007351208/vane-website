@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vanessa Vega</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
         <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-6 pt-2">
-                    Phone
+                    (909)746-9872
                 </div>
                 <div class="col-6 pt-2">
                     Realtor with Capre
@@ -32,7 +32,9 @@
         <nav class="navbar navbar-expand-md shadow">
 
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand d-flex align-items-center" href="/">
+                    <img src="Logo_Capre_blk_and_gold__1_-removebg-preview.PNG" alt="Capre Logo PNG" height="64px"
+                        width="64px">
                     <h2>Vanessa Vega</h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,7 +42,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end align-items-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="/about">About</a>
@@ -61,27 +63,60 @@
     <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-                <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-                    height="500" loading="lazy">
+                <img src="portraitnormal.jpg" class="d-block mx-lg-auto img-fluid" alt="Vanessa Vega Portrait"
+                    width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6">
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center text-lg-start color-secondary">Feel Confident in Buying!</h1>
-                <p class="lead text-center text-lg-start">Quick design and customize responsive mobile-first sites with Bootstrap, the world’s
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-center text-lg-start color-secondary">
+                    Feel Confident in Buying!</h1>
+                <p class="lead text-center text-lg-start">Quick design and customize responsive mobile-first sites with
+                    Bootstrap, the world’s
                     most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
                     system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-center justify-content-lg-start">
-                    <a id="hero-btn" type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="/about">Meet Vanessa</a>
+                    <a id="hero-btn" type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="/about">Meet
+                        Vanessa</a>
                 </div>
             </div>
         </div>
     </div>
+
     <!--Listing Section-->
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <a role="button" class="btn btn-secondary btn-lg" href="/listings">View Listings</a>
+        </div>
+    </div>
 
     <!--Contact Section-->
 
+    <div class="container my-5">
+        <h2 class="text-center">Need Help In</h2>
+        <!--Location List-->
+        <div class="container">
+            <div class="d-flex row justify-content-center">
+                {{#locations}}
+                <div id="location-card"
+                    class="col-6 col-md-4 card text-center mt-4 mx-4 d-flex justify-content-center align-items-center">
+                    <div class="card-body">
+                        <h5 id="location-card-text" class="card-title m-0">{{city}}</h5>
+                    </div>
+                </div>
+                {{/locations}}
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex justify-content-center my-5">
+                <a role="button" class="btn btn-secondary btn-lg" href="/contact">Contact Me</a>
+            </div>
+        </div>
+    </div>
+
+
+
     <!--Footer Section-->
-    <div class="container">
-        <footer class="my-4 pt-2">
+    <div id="footer-div" class="container-fluid">
+        <footer class="mt-4 pt-2">
             <ul class="nav justify-content-center">
                 <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
                 <li class="nav-item"><a href="/about" class="nav-link px-2 text-body-secondary">About</a></li>
@@ -89,21 +124,11 @@
                 <li class="nav-item"><a href="/contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
             </ul>
             <div class="container">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
                     <div class="col-md-4 d-flex align-items-center">
                         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                            <svg fill="#000000" height="36px" width="36px" version="1.1" id="Layer_1"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                                <path id="Mail" d="M58.0034485,8H5.9965506c-3.3136795,0-5.9999995,2.6862001-5.9999995,6v36c0,3.3137016,2.6863203,6,5.9999995,6
-	h52.006897c3.3137016,0,6-2.6862984,6-6V14C64.0034485,10.6862001,61.3171501,8,58.0034485,8z M62.0034485,49.1108017
-	L43.084549,30.1919994l18.9188995-12.0555992V49.1108017z M5.9965506,10h52.006897c2.2056007,0,4,1.7943001,4,4v1.7664003
-	L34.4677505,33.3134003c-1.4902,0.9492989-3.3935013,0.9199982-4.8495998-0.0703011L1.9965508,14.4694996V14
-	C1.9965508,11.7943001,3.7910507,10,5.9965506,10z M1.9965508,16.8852005L21.182251,29.9251003L1.9965508,49.1108017V16.8852005z
-	 M58.0034485,54H5.9965506c-1.6473999,0-3.0638998-1.0021019-3.6760998-2.4278984l20.5199013-20.5200024l5.6547985,3.843401
-	c1.0859013,0.7383003,2.3418007,1.1083984,3.5995998,1.1083984c1.1953011,0,2.3925018-0.3339996,3.4463005-1.0048981
-	l5.8423996-3.7230015l20.2961006,20.2961025C61.0673485,52.9978981,59.6508713,54,58.0034485,54z" />
-                            </svg>
+                            <img src="Logo_Capre_blk_and_gold__1_-removebg-preview.PNG" alt="Capre Logo PNG"
+                                height="64px" width="64px">
                         </a>
                         <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Capre</span>
                     </div>
