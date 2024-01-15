@@ -24,26 +24,23 @@ a {
     text-decoration: none;
 }
 
-#header-div {
+.bg-vv-primary {
     background-color: var(--vv-primary);
 }
 
-#hero-btn {
-    background-color: var(--vv-secondary);
-    border: 1px solid var(--vv-secondary);
-}
-
-#location-card {
-    background-color: var(--vv-primary);
-}
-
-#location-card-text {
+.color-vv-primary {
     color: var(--vv-secondary);
 }
 
-.btn-primary {
+.btn-vv-primary {
     --bs-btn-color: var(--vv-primary);
     --bs-btn-bg: var(--vv-secondary);
     --bs-btn-border-color: var(--vv-secondary);
+}
+
+.btn-vv-secondary {
+    --bs-btn-color: var(--vv-secondary);
+    --bs-btn-bg: var(--vv-primary);
+    --bs-btn-border-color: var(--vv-primary);
 }
 

@@ -9,8 +9,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "src/app.js"
         }
-    ], 
-    "installCommand": "npm install"
+    ]
 }
