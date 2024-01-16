@@ -33,6 +33,10 @@ a {
     color: var(--vv-secondary);
 }
 
+.color-vv-secondary {
+    color: var(--vv-primary);
+}
+
 .btn-vv-primary {
     --bs-btn-color: var(--vv-primary);
     --bs-btn-bg: var(--vv-secondary);
