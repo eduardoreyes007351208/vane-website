@@ -26,6 +26,7 @@ a {
 
 .bg-vv-primary {
     background-color: var(--vv-primary);
+    color: #ffffff;
 }
 
 .color-vv-primary {
