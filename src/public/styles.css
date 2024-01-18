@@ -1,7 +1,7 @@
 :root {
     --vv-font-sans-serif: "Courier Prime", monospace;
-    --vv-primary: #555555;
-    --vv-secondary: #ffbf00;
+    --vv-primary: #444345;
+    --vv-secondary: #c49841;
 }
 
 body {
@@ -47,5 +47,17 @@ a {
     --bs-btn-color: var(--vv-secondary);
     --bs-btn-bg: var(--vv-primary);
     --bs-btn-border-color: var(--vv-primary);
+}
+
+.nav-item a {
+    color: #c49841;
+}
+
+.nav-item a:hover {
+    color: #ffffff;
+}
+
+#active {
+    color: #ffffff;
 }
 
