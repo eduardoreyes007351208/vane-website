@@ -20,6 +20,16 @@ h6 {
     color: var(--vv-secondary);
 }
 
+#header {
+    background-image: url(./la_banner.JPG);
+    background-size: cover;
+}
+
+#header-main {
+    width: 50%;
+    height: auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -27,6 +37,11 @@ a {
 .bg-vv-primary {
     background-color: var(--vv-primary);
     color: #ffffff;
+}
+
+.bg-vv-secondary {
+    background-color: var(--vv-secondary);
+    color: var(--vv-primary);
 }
 
 .color-vv-primary {
