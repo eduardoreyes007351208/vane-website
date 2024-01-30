@@ -21,7 +21,11 @@ app.get('/listings', (req, res) => {
     res.sendFile(path.join(__dirname, "pages/listings.html"));
 });
 app.get('/contact', (req, res) => {
-    res.sendFile(path.join(__dirname, "pages/contact.html"));
+    res.render('contact');
+});
+
+app.post('/contact/message', (req, res) => {
+    
 });
 
 const port = process.env.PORT || 3000;
