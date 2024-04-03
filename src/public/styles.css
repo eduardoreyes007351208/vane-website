@@ -76,3 +76,7 @@ a {
     color: #ffffff;
 }
 
+#listing1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

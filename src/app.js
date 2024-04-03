@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const mustacheExpress = require('mustache-express');
 const LOCATIONS = require('./lists/locations')
+const LISTINGINFO = require('./lists/listinginfo')
 
 const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
@@ -18,7 +19,7 @@ app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, "pages/about.html"));
 });
 app.get('/listings', (req, res) => {
-    res.sendFile(path.join(__dirname, "pages/listings.html"));
+    res.render('listings', {listinginfo: LISTINGINFO});
 });
 app.get('/contact', (req, res) => {
     res.render('contact');
