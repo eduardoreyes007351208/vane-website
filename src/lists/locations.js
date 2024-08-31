@@ -25,7 +25,7 @@ const LOCATIONS = [
     },
     {
         id: 7,
-        city: 'Beverly Hills'
+        city: 'Rancho Cucamonga'
     },
     {
         id: 8,
